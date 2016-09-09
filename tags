@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AOT_AAC_LC	common.h	/^	AOT_AAC_LC = 2,$/;"	e	enum:AudioObjectType
+AOT_AAC_LTP	common.h	/^	AOT_AAC_LTP = 4,$/;"	e	enum:AudioObjectType
+AOT_AAC_MAIN	common.h	/^	AOT_AAC_MAIN =1,$/;"	e	enum:AudioObjectType
+AOT_AAC_SCALABLE	common.h	/^	AOT_AAC_SCALABLE = 6,$/;"	e	enum:AudioObjectType
+AOT_AAC_SSR	common.h	/^	AOT_AAC_SSR = 3,$/;"	e	enum:AudioObjectType
+AOT_NULL	common.h	/^	AOT_NULL = 0,$/;"	e	enum:AudioObjectType
+AOT_SRC	common.h	/^	AOT_SRC = 5,$/;"	e	enum:AudioObjectType
+A_CODEC_ID_AAC	common.h	/^    A_CODEC_ID_AAC,$/;"	e	enum:MediaCodecID
+A_CODEC_ID_MP2	common.h	/^    A_CODEC_ID_MP2,$/;"	e	enum:MediaCodecID
+A_CODEC_ID_MP3	common.h	/^    A_CODEC_ID_MP3,$/;"	e	enum:MediaCodecID
+A_CODEC_ID_NONE	common.h	/^    A_CODEC_ID_NONE,$/;"	e	enum:MediaCodecID
+A_CODEC_ID_PCM	common.h	/^    A_CODEC_ID_PCM,$/;"	e	enum:MediaCodecID
+AacHeader	common.h	/^	char         AacHeader[7];$/;"	m	struct:MediaInfo
+AudioObjectType	common.h	/^enum AudioObjectType$/;"	g
+CFlvParser	flv.cpp	/^CFlvParser::CFlvParser():$/;"	f	class:CFlvParser
+CFlvParser	flv.h	/^class CFlvParser {$/;"	c
+COMMON	common.h	/^#define COMMON$/;"	d
+DATA_TYPE_ARRAY	flv.h	/^	DATA_TYPE_ARRAY = 0x0a,$/;"	e	enum:__anon8
+DATA_TYPE_BOOL	flv.h	/^	DATA_TYPE_BOOL = 0x01,$/;"	e	enum:__anon8
+DATA_TYPE_DATE	flv.h	/^	DATA_TYPE_DATE = 0x0b,$/;"	e	enum:__anon8
+DATA_TYPE_LONG_STRING	flv.h	/^	DATA_TYPE_LONG_STRING = 0x0c,$/;"	e	enum:__anon8
+DATA_TYPE_MIXEDARRAY	flv.h	/^	DATA_TYPE_MIXEDARRAY = 0x08,$/;"	e	enum:__anon8
+DATA_TYPE_NULL	flv.h	/^	DATA_TYPE_NULL = 0x05,$/;"	e	enum:__anon8
+DATA_TYPE_NUMBER	flv.h	/^	DATA_TYPE_NUMBER = 0x00,$/;"	e	enum:__anon8
+DATA_TYPE_OBJECT	flv.h	/^	DATA_TYPE_OBJECT = 0x03,$/;"	e	enum:__anon8
+DATA_TYPE_OBJECT_END	flv.h	/^	DATA_TYPE_OBJECT_END = 0x09,$/;"	e	enum:__anon8
+DATA_TYPE_REFERENCE	flv.h	/^	DATA_TYPE_REFERENCE = 0x07,$/;"	e	enum:__anon8
+DATA_TYPE_STRING	flv.h	/^	DATA_TYPE_STRING = 0x02,$/;"	e	enum:__anon8
+DATA_TYPE_UNDEFINED	flv.h	/^	DATA_TYPE_UNDEFINED = 0x06,$/;"	e	enum:__anon8
+DATA_TYPE_UNSUPPORTED	flv.h	/^	DATA_TYPE_UNSUPPORTED = 0x0d,$/;"	e	enum:__anon8
+DEMUX_CloseFile	parseapi.cpp	/^int DEMUX_CloseFile()$/;"	f
+DEMUX_OpenFile	parseapi.cpp	/^int DEMUX_OpenFile(const char *name, MediaInfo &info)$/;"	f
+DEMUX_ReadFrame	parseapi.cpp	/^int DEMUX_ReadFrame(DataPacket &packet)$/;"	f
+DataOffset	flv.h	/^	uint32_t DataOffset;$/;"	m	struct:__anon5
+DataPacket	common.h	/^typedef struct DataPacket$/;"	s
+DataPacket	common.h	/^}DataPacket;$/;"	t	typeref:struct:DataPacket
+DataSize	flv.h	/^	uint8_t DataSize[3];$/;"	m	struct:__anon6
+FLV_A_CODECID_AAC	flv.h	/^	FLV_A_CODECID_AAC = 10,$/;"	e	enum:__anon3
+FLV_A_CODECID_ADPCM	flv.h	/^	FLV_A_CODECID_ADPCM = 1,$/;"	e	enum:__anon3
+FLV_A_CODECID_MP3	flv.h	/^	FLV_A_CODECID_MP3,$/;"	e	enum:__anon3
+FLV_A_CODECID_NELLYMOSER	flv.h	/^	FLV_A_CODECID_NELLYMOSER,$/;"	e	enum:__anon3
+FLV_A_CODECID_NELLYMOSER_16KHZ_MONO	flv.h	/^	FLV_A_CODECID_NELLYMOSER_16KHZ_MONO,$/;"	e	enum:__anon3
+FLV_A_CODECID_NELLYMOSER_8KHZ_MONO	flv.h	/^	FLV_A_CODECID_NELLYMOSER_8KHZ_MONO,$/;"	e	enum:__anon3
+FLV_A_CODECID_PCM	flv.h	/^	FLV_A_CODECID_PCM = 0,$/;"	e	enum:__anon3
+FLV_A_CODECID_PCM_ALAW	flv.h	/^	FLV_A_CODECID_PCM_ALAW,$/;"	e	enum:__anon3
+FLV_A_CODECID_PCM_LE	flv.h	/^	FLV_A_CODECID_PCM_LE,$/;"	e	enum:__anon3
+FLV_A_CODECID_PCM_MULAW	flv.h	/^	FLV_A_CODECID_PCM_MULAW,$/;"	e	enum:__anon3
+FLV_A_CODECID_SPEEX	flv.h	/^	FLV_A_CODECID_SPEEX,$/;"	e	enum:__anon3
+FLV_FRAME_DISP_INTER	flv.h	/^	FLV_FRAME_DISP_INTER = 3, $/;"	e	enum:__anon4
+FLV_FRAME_GENERATED_KEY	flv.h	/^	FLV_FRAME_GENERATED_KEY = 4,$/;"	e	enum:__anon4
+FLV_FRAME_INTER	flv.h	/^	FLV_FRAME_INTER = 2 , $/;"	e	enum:__anon4
+FLV_FRAME_KEY	flv.h	/^	FLV_FRAME_KEY = 1, $/;"	e	enum:__anon4
+FLV_FRAME_VIDEO_INFO_CMD	flv.h	/^	FLV_FRAME_VIDEO_INFO_CMD = 5, $/;"	e	enum:__anon4
+FLV_H	flv.h	/^#define FLV_H$/;"	d
+FLV_HEAD_LEN	flv.h	/^#define FLV_HEAD_LEN /;"	d
+FLV_V_CODECID_H263	flv.h	/^	FLV_V_CODECID_H263 = 2,$/;"	e	enum:__anon2
+FLV_V_CODECID_H264	flv.h	/^	FLV_V_CODECID_H264 = 7,$/;"	e	enum:__anon2
+FLV_V_CODECID_MPEG4	flv.h	/^	FLV_V_CODECID_MPEG4 = 9,$/;"	e	enum:__anon2
+FLV_V_CODECID_REALH263	flv.h	/^	FLV_V_CODECID_REALH263 = 8,$/;"	e	enum:__anon2
+FLV_V_CODECID_SCREEN	flv.h	/^	FLV_V_CODECID_SCREEN = 3,$/;"	e	enum:__anon2
+FLV_V_CODECID_SCREEN2	flv.h	/^	FLV_V_CODECID_SCREEN2 = 6,$/;"	e	enum:__anon2
+FLV_V_CODECID_VP6	flv.h	/^	FLV_V_CODECID_VP6 = 4,$/;"	e	enum:__anon2
+FLV_V_CODECID_VP6A	flv.h	/^	FLV_V_CODECID_VP6A = 5,$/;"	e	enum:__anon2
+Flags	flv.h	/^	uint8_t Flags;$/;"	m	struct:__anon5
+FlvAMFDataType	flv.h	/^} FlvAMFDataType;$/;"	t	typeref:enum:__anon8
+FlvHeader	flv.h	/^} FlvHeader;$/;"	t	typeref:struct:__anon5
+FlvMetaData	flv.h	/^}FlvMetaData;$/;"	t	typeref:struct:__anon7
+FlvPacket	flv.h	/^typedef struct FlvPacket$/;"	s
+FlvPacket	flv.h	/^}FlvPacket;$/;"	t	typeref:struct:FlvPacket
+GetMediaInfo	flv.cpp	/^void CFlvParser::GetMediaInfo(MediaInfo &media)$/;"	f	class:CFlvParser
+MEDIA_TYPE	common.h	/^enum MEDIA_TYPE$/;"	g
+MediaCodecID	common.h	/^enum MediaCodecID {$/;"	g
+MediaInfo	common.h	/^typedef struct MediaInfo{$/;"	s
+MediaInfo	common.h	/^}MediaInfo;$/;"	t	typeref:struct:MediaInfo
+OpenFlv	flv.cpp	/^bool CFlvParser::OpenFlv(FILE *file)$/;"	f	class:CFlvParser
+PARSEAPI_H	parseapi.h	/^#define PARSEAPI_H$/;"	d
+PPSData	common.h	/^	char PPSData[128];$/;"	m	struct:__anon1
+PPSDataSize	common.h	/^	int  PPSDataSize;$/;"	m	struct:__anon1
+ParseAudioTag	flv.cpp	/^int CFlvParser::ParseAudioTag()$/;"	f	class:CFlvParser
+ParseFile	flv.cpp	/^int CFlvParser::ParseFile()$/;"	f	class:CFlvParser
+ParseMetaData	flv.cpp	/^int CFlvParser::ParseMetaData(int size)$/;"	f	class:CFlvParser
+ParseMetaTag	flv.cpp	/^int CFlvParser::ParseMetaTag()$/;"	f	class:CFlvParser
+ParseVideoTag	flv.cpp	/^int CFlvParser::ParseVideoTag()$/;"	f	class:CFlvParser
+ReadAvFrame	flv.cpp	/^uint32_t CFlvParser::ReadAvFrame(DataPacket &packet, int64_t index)$/;"	f	class:CFlvParser
+ReadDouble	flv.cpp	/^double CFlvParser::ReadDouble()$/;"	f	class:CFlvParser
+ReadFile16	flv.cpp	/^uint16_t CFlvParser::ReadFile16()$/;"	f	class:CFlvParser
+ReadFile32	flv.cpp	/^uint32_t CFlvParser::ReadFile32()$/;"	f	class:CFlvParser
+Reserved	flv.h	/^	uint32_t Reserved;$/;"	m	struct:__anon6
+SFI_11025	common.h	/^	SFI_11025,$/;"	e	enum:SampleFrequencyIndex
+SFI_12000	common.h	/^	SFI_12000,$/;"	e	enum:SampleFrequencyIndex
+SFI_16000	common.h	/^	SFI_16000,$/;"	e	enum:SampleFrequencyIndex
+SFI_22050	common.h	/^	SFI_22050,$/;"	e	enum:SampleFrequencyIndex
+SFI_24000	common.h	/^	SFI_24000,$/;"	e	enum:SampleFrequencyIndex
+SFI_32000	common.h	/^	SFI_32000,$/;"	e	enum:SampleFrequencyIndex
+SFI_44100	common.h	/^	SFI_44100,$/;"	e	enum:SampleFrequencyIndex
+SFI_48000	common.h	/^	SFI_48000,$/;"	e	enum:SampleFrequencyIndex
+SFI_64000	common.h	/^	SFI_64000,$/;"	e	enum:SampleFrequencyIndex
+SFI_7350	common.h	/^	SFI_7350,$/;"	e	enum:SampleFrequencyIndex
+SFI_8000	common.h	/^	SFI_8000,$/;"	e	enum:SampleFrequencyIndex
+SFI_88200	common.h	/^	SFI_88200,$/;"	e	enum:SampleFrequencyIndex
+SFI_96000	common.h	/^	SFI_96000,$/;"	e	enum:SampleFrequencyIndex
+SPSData	common.h	/^	char SPSData[128];$/;"	m	struct:__anon1
+SPSDataSize	common.h	/^	int  SPSDataSize;$/;"	m	struct:__anon1
+SPS_PPS	common.h	/^	SPS_PPS_t    SPS_PPS;$/;"	m	struct:MediaInfo
+SPS_PPS_t	common.h	/^}SPS_PPS_t;$/;"	t	typeref:struct:__anon1
+SampleFrequencyIndex	common.h	/^enum SampleFrequencyIndex$/;"	g
+Signature	flv.h	/^	uint8_t Signature[3];$/;"	m	struct:__anon5
+TAG_HEAD_LEN	flv.h	/^#define TAG_HEAD_LEN /;"	d
+TAG_TYPE_AUDIO	flv.h	/^	TAG_TYPE_AUDIO = 0x08,$/;"	e	enum:TagType
+TAG_TYPE_META	flv.h	/^	TAG_TYPE_META = 0x12,$/;"	e	enum:TagType
+TAG_TYPE_VIDEO	flv.h	/^	TAG_TYPE_VIDEO = 0x09,$/;"	e	enum:TagType
+TYPE_AUDIO	common.h	/^	TYPE_AUDIO,$/;"	e	enum:MEDIA_TYPE
+TYPE_AVI	parseapi.h	/^	TYPE_AVI,$/;"	e	enum:VideoType
+TYPE_FLV	parseapi.h	/^	TYPE_FLV,$/;"	e	enum:VideoType
+TYPE_MP4	parseapi.h	/^	TYPE_MP4 = 0,$/;"	e	enum:VideoType
+TYPE_VIDEO	common.h	/^	TYPE_VIDEO,$/;"	e	enum:MEDIA_TYPE
+TagHeader	flv.h	/^} TagHeader;$/;"	t	typeref:struct:__anon6
+TagType	flv.h	/^	uint8_t TagType;$/;"	m	struct:__anon6
+TagType	flv.h	/^enum TagType {$/;"	g
+Timestamp	flv.h	/^	uint8_t Timestamp[3];$/;"	m	struct:__anon6
+V_CODEC_ID_H263	common.h	/^    V_CODEC_ID_H263,$/;"	e	enum:MediaCodecID
+V_CODEC_ID_H264	common.h	/^    V_CODEC_ID_H264,$/;"	e	enum:MediaCodecID
+V_CODEC_ID_MPEG4	common.h	/^    V_CODEC_ID_MPEG4,$/;"	e	enum:MediaCodecID
+V_CODEC_ID_NONE	common.h	/^    V_CODEC_ID_NONE,$/;"	e	enum:MediaCodecID
+Version	flv.h	/^	uint8_t Version;$/;"	m	struct:__anon5
+VideoType	parseapi.h	/^enum VideoType {$/;"	g
+audio_bit_rate	common.h	/^    int audio_bit_rate;                      \/\/bps$/;"	m	struct:MediaInfo
+audio_channel	common.h	/^    int audio_channel;$/;"	m	struct:MediaInfo
+audio_codec_id	common.h	/^    enum MediaCodecID audio_codec_id;$/;"	m	struct:MediaInfo	typeref:enum:MediaInfo::MediaCodecID
+audio_sample_rate	common.h	/^    int audio_sample_rate;$/;"	m	struct:MediaInfo
+audio_sample_size	common.h	/^	int audio_sample_size;                   \/\/8 or 16$/;"	m	struct:MediaInfo
+audiocodecid	flv.h	/^    double audiocodecid;$/;"	m	struct:__anon7
+audiodatarate	flv.h	/^    double audiodatarate;$/;"	m	struct:__anon7
+audiosamplerate	flv.h	/^    double audiosamplerate;$/;"	m	struct:__anon7
+audiosamplesize	flv.h	/^    double audiosamplesize;$/;"	m	struct:__anon7
+data	common.h	/^    char *data;$/;"	m	struct:DataPacket
+data_size	common.h	/^    int data_size;$/;"	m	struct:DataPacket
+dts	common.h	/^    int64_t dts;$/;"	m	struct:DataPacket
+dts	flv.h	/^	uint64_t dts;$/;"	m	struct:FlvPacket
+duration	flv.h	/^    double duration;$/;"	m	struct:__anon7
+encodername	flv.h	/^	char   *encodername;$/;"	m	struct:__anon7
+filesize	flv.h	/^	double filesize;$/;"	m	struct:__anon7
+fps	common.h	/^    float  fps;$/;"	m	struct:MediaInfo
+framerate	flv.h	/^    double framerate;$/;"	m	struct:__anon7
+gFile	parseapi.cpp	/^FILE* gFile = NULL;$/;"	v
+gFlv	parseapi.cpp	/^CFlvParser gFlv;$/;"	v
+gVideoType	parseapi.cpp	/^int gVideoType = 0;$/;"	v
+height	flv.h	/^    double height;$/;"	m	struct:__anon7
+key_frame	common.h	/^    int key_frame;              \/\/-1:unknow 0:not keyframe 1:keyframe$/;"	m	struct:DataPacket
+key_frame	flv.h	/^	uint32_t key_frame;$/;"	m	struct:FlvPacket
+m_Headder	flv.h	/^	FlvHeader m_Headder;$/;"	m	class:CFlvParser
+m_bIsAdtsHeadInit	flv.h	/^	bool m_bIsAdtsHeadInit;$/;"	m	class:CFlvParser
+m_bIsSPSPPSInit	flv.h	/^	bool m_bIsSPSPPSInit;$/;"	m	class:CFlvParser
+m_file	flv.h	/^    std::string m_file;$/;"	m	class:CFlvParser
+m_iCurrIndex	flv.h	/^	int64_t m_iCurrIndex;$/;"	m	class:CFlvParser
+m_mediaInfo	flv.h	/^	MediaInfo m_mediaInfo;$/;"	m	class:CFlvParser
+m_metaData	flv.h	/^	FlvMetaData m_metaData;$/;"	m	class:CFlvParser
+m_pFlvFile	flv.h	/^    FILE *m_pFlvFile;$/;"	m	class:CFlvParser
+m_szAudioSpecificConfig	flv.h	/^	char m_szAudioSpecificConfig[64];$/;"	m	class:CFlvParser
+m_uiFileLen	flv.h	/^	uint32_t m_uiFileLen;$/;"	m	class:CFlvParser
+m_vcAVFrameIndex	flv.h	/^	std::vector<FlvPacket> m_vcAVFrameIndex;$/;"	m	class:CFlvParser
+m_vcKeyFrameIndex	flv.h	/^	std::vector<int> m_vcKeyFrameIndex;$/;"	m	class:CFlvParser
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+ntole	flv.cpp	/^T ntole(T num)$/;"	f
+offset	flv.h	/^	uint64_t offset;;$/;"	m	struct:FlvPacket
+pts	common.h	/^    int64_t pts;$/;"	m	struct:DataPacket
+pts	flv.h	/^	uint64_t pts;$/;"	m	struct:FlvPacket
+size	flv.h	/^	uint64_t size;$/;"	m	struct:FlvPacket
+stereo	flv.h	/^    bool   stereo;$/;"	m	struct:__anon7
+stream_type	common.h	/^	MEDIA_TYPE stream_type;     \/\/0ï¼švideo 1:audio$/;"	m	struct:DataPacket
+stream_type	flv.h	/^	MEDIA_TYPE   stream_type;           \/\/0£ºvideo 1:audio$/;"	m	struct:FlvPacket
+time	common.h	/^	uint64_t time;                           \/\/ms$/;"	m	struct:MediaInfo
+video_bit_rate	common.h	/^    int64_t video_bit_rate;                  \/\/bps$/;"	m	struct:MediaInfo
+video_codec_id	common.h	/^    enum MediaCodecID video_codec_id;$/;"	m	struct:MediaInfo	typeref:enum:MediaInfo::MediaCodecID
+video_height	common.h	/^    int video_height;$/;"	m	struct:MediaInfo
+video_width	common.h	/^    int video_width;$/;"	m	struct:MediaInfo
+videocodecid	flv.h	/^    double videocodecid;$/;"	m	struct:__anon7
+videodatarate	flv.h	/^    double videodatarate;$/;"	m	struct:__anon7
+width	flv.h	/^    double width;$/;"	m	struct:__anon7
+~CFlvParser	flv.cpp	/^CFlvParser::~CFlvParser() {$/;"	f	class:CFlvParser
